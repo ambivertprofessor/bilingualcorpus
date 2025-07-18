@@ -28,7 +28,7 @@ export default function EvaluationDashboard() {
 
     useEffect(() => {
         axios
-            .get("http://localhost:8000/evaluation-results")
+            .get("https://bilingual-backend.onrender.com/evaluation-results")
             .then((res) => setData(res.data))
             .catch((err) => console.error("Failed to fetch:", err))
             .finally(() =>
