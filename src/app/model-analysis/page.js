@@ -13,7 +13,7 @@ export default function EvaluateExcel() {
   const [mounted, setMounted] = useState(false);
   const [showGuideModal, setShowGuideModal] = useState(false);
 
-  const BASE_URL = "https://pdfreader2-imp3.onrender.com";
+  const BASE_URL = "https://bilingual-backend.onrender.com";
   // const BASE_URL = "http://127.0.0.1:8000";
 
   useEffect(() => {
